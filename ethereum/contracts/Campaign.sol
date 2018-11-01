@@ -55,7 +55,6 @@ contract Campaign {
     function createRequest(string _description, uint _value, address _recipient)
         public onlyManager
     {
-        require(hasContributed[msg.sender]);
         Request memory newRequest = Request({
             description: _description,
             value: _value,
