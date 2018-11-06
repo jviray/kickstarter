@@ -31,4 +31,5 @@ const deploy = async () => {
 
 deploy();
 
-//  Deployed at 0x9e6A626b2B771FAc9f6f40a5b51cAd19f682a765
+// New contract deployed at 0xa32ded29D95A326F43D739CF86Ae69EC26AF1319
+// Old contract deployed at 0x9e6A626b2B771FAc9f6f40a5b51cAd19f682a765
