@@ -62,7 +62,7 @@ class RequestNew extends Component {
           </Form.Field>
 
           <Form.Field>
-            <label>Value (ether)</label>
+            <label>Value (ETH)</label>
             <Input
               value={this.state.value}
               onChange={event =>

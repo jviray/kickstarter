@@ -9,7 +9,6 @@ import { Link } from '../../routes';
 class CampaignShow extends Component {
   static async getInitialProps(props) {
     const campaign = Campaign(props.query.address);
-
     const summary = await campaign.methods.getSummary().call();
 
     return {
@@ -66,6 +65,10 @@ class CampaignShow extends Component {
   render() {
     return (
       <Layout>
+        <Link route={`/`}>
+          <a>{'<< Back'}</a>
+        </Link>
+
         <h3>Campaign Details</h3>
         <Grid>
           <Grid.Row>
